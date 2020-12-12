@@ -13,16 +13,14 @@ def hide():
         print(beg+'**')
     else:
         print(beg+('*'*(x-2))+end)
-
 hide()
 
 #   1. Napisz funkcję zmieniającą klucz _name_ na _nazwa_
 def print_dict(d):
+    d['nazwa'] = d['name']
+    d.pop('name')
     for key in samolot:
-        if key=='name':
-            print("nazwa:{0}".format(d[key]))
-        else:
-            print("{0}:{1}".format(key,d[key]))
+        print("{0}:{1}".format(key,d[key]))
 if __name__ == "__main__":
     samolot = {'name':'boeing',
                 'przebieg':10000,
@@ -40,3 +38,4 @@ def calculate_vat(netto):
 if __name__ == "__main__":
     vat = calculate_vat(1000)
     print("{0}".format(vat))
+
