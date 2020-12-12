@@ -38,4 +38,3 @@ def calculate_vat(netto):
 if __name__ == "__main__":
     vat = calculate_vat(1000)
     print("{0}".format(vat))
-
