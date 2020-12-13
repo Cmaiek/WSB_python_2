@@ -9,3 +9,6 @@
 
 1. Klasy 1-5
    1. w tym: generatory, inheritance
+
+
+Ćwiczenia z BDD umieszczone w odrębnym repozytorium.
