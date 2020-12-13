@@ -11,4 +11,4 @@
    1. w tym: generatory, inheritance
 
 
-Ćwiczenia z BDD umieszczone w odrębnym repozytorium.
+Ćwiczenia z BDD umieszczone w odrębnym [repozytorium](https://github.com/cmaiek/WSB_BDD).
